@@ -1,0 +1,11 @@
+.piaic {
+    font-weight: 1000;
+}
+.main-div {
+    margin: auto;
+    max-width: 45%;
+}
+a, a:visited, a:link {
+    color: black;
+    text-decoration: none;
+}

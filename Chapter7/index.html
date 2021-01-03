@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ch7</title>
+  </head>
+  <body>
+    <h1>Chapter # 7 - Forms</h1>
+    <form>
+      <fieldset>
+        <legend>Your Details:</legend>
+        <label for="name"
+          >Name:
+          <input type="text" name="name" />
+        </label>
+        <br />
+        <label for="email"
+          >Email:
+          <input type="email" name="email" id="email" />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Your Review</legend>
+        <label for="hear"
+          >How did you hear about us?
+          <select name="hear" id="hear">
+            <option value="hear1">Google</option>
+            <option value="hear2">Facebook</option>
+            <option value="hear3">Youtube</option>
+            <option value="hear3">Friends</option>
+          </select>
+        </label>
+        Would you visit us again?
+        <br />
+        <input type="radio" name="visit" id="visit1" value="yes" /><label
+          for="visit1"
+          >Yes</label
+        >
+        <input type="radio" name="visit" id="visit2" value="no" /><label
+          for="visit2"
+          >No</label
+        >
+        <input type="radio" name="visit" id="visit3" value="maybe" /><label
+          for="visit3"
+          >Maybe</label
+        >
+        <br />
+        <label for="comments">Comments: </label> <br />
+        <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+        <br />
+        <input type="checkbox" name="signup" id="signup" checked />
+        <label for="signup">Sign me up for email updates</label>
+        <br />
+        <input type="submit" value="Submit review" />
+      </fieldset>
+    </form>
+  </body>
+</html>
