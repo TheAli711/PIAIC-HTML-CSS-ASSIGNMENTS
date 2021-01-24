@@ -24,3 +24,27 @@ body {
     font-size: larger;
 }
 
+.menu ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-top: -30px;
+}
+
+.menu ul li {
+    float: right;
+}
+
+.menu ul a {
+    padding: 15px;
+    padding-top: 0px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+
