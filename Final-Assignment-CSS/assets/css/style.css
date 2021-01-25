@@ -1,68 +1,106 @@
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
-.top-bar{
-    background-color:#212121;
-    color: white;
-    padding: 1%;
+.top-bar {
+  background-color: #212121;
+  color: white;
+  padding: 1%;
 }
 
 .call {
-    float: right;
+  float: right;
 }
 
 .call-me-btn {
-    border: 0px;
-    background-color:#86ea4b;
-    border-radius: 3px;
-    color: black;
-    padding:6px;
+  border: 0px;
+  background-color: #86ea4b;
+  border-radius: 3px;
+  color: black;
+  padding: 6px;
 }
 
 .social-icons .bi {
-    font-size: larger;
-    padding-left: 20px;
+  font-size: larger;
+  padding-left: 20px;
 }
 
-
 .menu ul {
-    list-style-type: none;
-    margin: 0%;
-    padding: 0%;
-    overflow: hidden;
-    margin-right: 20px;
-    margin-top: -30px;
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  margin-right: 20px;
+  margin-top: -30px;
 }
 
 .menu ul li {
-    float: right;
+  float: right;
 }
 
 .menu ul a {
-    padding: 15px;
-    padding-top: 0px;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: black;
+  padding: 15px;
+  padding-top: 55px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
-.menu ul a:active {
-    text-decoration: underline;
-    text-underline-offset: 10px;
+.menu ul a:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
 
 .advantages span {
-    color: green;
-    
+  color: green;
 }
 
 .advantages {
-    text-align: center;
+  text-align: center;
 }
+.advantages h2 {
+    font-weight: 900;
+  }
 .advantages p {
-    padding: 20%;
-    padding-top: 0%;
-    padding-bottom: 0;
+  padding: 20%;
+  padding-top: 0%;
+  padding-bottom: 0;
 }
 
+.carousel-inner {
+  max-height: 530px !important;
+  max-width: 100%;
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-button {
+    background-color: #fec700;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.carousel-button:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.carousel-p {
+    padding: 10px;
+}
+
+.carousel-caption h1 {
+    font-weight: 900;
+}
+
+.col-sm img {
+    width: 180px;
+}
+
+.row p {
+    font-size: small;
+    padding: 0%;
+}
