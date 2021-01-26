@@ -2,6 +2,9 @@ body {
   padding: 0;
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 .top-bar {
   background-color: #212121;
   color: white;
@@ -78,7 +81,7 @@ body {
   transform: translateY(-50%);
 }
 
-.carousel-button {
+.readmore-button {
   background-color: #fec700;
   padding: 10px;
   color: black;
@@ -99,7 +102,7 @@ body {
 .col-sm {
   padding: 0%;
 }
-.col-sm img {
+.advantages .container .row .col-sm img {
   width: 180px;
 }
 
@@ -109,18 +112,29 @@ body {
 }
 
 .aboutus {
-  background-image: url("https://www.desktopbackground.org/p/2013/08/20/625874_hd-abstract-light-grey-wallpapers-1920-1080-full-size_1920x1080_h.jpg");
-  background-repeat:no-repeat;
+  background-image: url("https://swallowtherapy.com/wp-content/uploads/2016/10/light-grey-abstract-background-hd-pictures-wallpapers-amagico-grey-background-wallpaper-bedroom-for-walls-homebase-designs-living-room-uk.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: left bottom;
 }
 .aboutus h2 span {
   color: #86ea4b;
 }
-.aboutus h2  {
+.aboutus h2 {
   margin-top: 30px;
   font-weight: 900;
-}  
+}
 
 .center {
   text-align: center;
 }
+
+#aboutus .row .col-sm img {
+  width: 100%;
+}
+
+.row {
+  padding: 30px;
+  padding-top: 0%;
+}
+
