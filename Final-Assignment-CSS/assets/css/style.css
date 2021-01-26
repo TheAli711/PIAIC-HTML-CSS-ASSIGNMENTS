@@ -5,7 +5,7 @@ body {
 .top-bar {
   background-color: #212121;
   color: white;
-  padding: 1%;
+  padding: 1.5%;
 }
 
 .call {
@@ -52,15 +52,16 @@ body {
 }
 
 .advantages span {
-  color: green;
+  color: #86ea4b;
 }
 
 .advantages {
   text-align: center;
+  margin-top: 30px;
 }
 .advantages h2 {
-    font-weight: 900;
-  }
+  font-weight: 900;
+}
 .advantages p {
   padding: 20%;
   padding-top: 0%;
@@ -78,29 +79,48 @@ body {
 }
 
 .carousel-button {
-    background-color: #fec700;
-    padding: 10px;
-    color: black;
-    text-decoration: none;
+  background-color: #fec700;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
 }
 .carousel-button:hover {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .carousel-p {
-    padding: 10px;
+  padding: 10px;
 }
 
 .carousel-caption h1 {
-    font-weight: 900;
+  font-weight: 900;
 }
-
+.col-sm {
+  padding: 0%;
+}
 .col-sm img {
-    width: 180px;
+  width: 180px;
 }
 
 .row p {
-    font-size: small;
-    padding: 0%;
+  font-size: small;
+  padding: 0%;
+}
+
+.aboutus {
+  background-image: url("https://www.desktopbackground.org/p/2013/08/20/625874_hd-abstract-light-grey-wallpapers-1920-1080-full-size_1920x1080_h.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.aboutus h2 span {
+  color: #86ea4b;
+}
+.aboutus h2  {
+  margin-top: 30px;
+  font-weight: 900;
+}  
+
+.center {
+  text-align: center;
 }
