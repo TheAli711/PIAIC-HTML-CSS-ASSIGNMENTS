@@ -141,7 +141,7 @@ html {
 .header-p {
   padding-left: 17%;
   padding-right: 17%;
-  font-size:medium;
+  font-size: medium;
   margin-top: 30px;
   margin-bottom: 60px;
 }
@@ -154,12 +154,11 @@ html {
   color: #86ea4b;
 }
 
-
 #services .container .col-sm {
   padding-right: 1%;
   padding-left: 1%;
   background-color: #f2f2f2;
-  margin:50px 10px ;
+  margin: 50px 10px;
 }
 
 #services .container .col-sm img {
@@ -179,30 +178,30 @@ html {
 }
 
 #portfolio span {
-  color:#86ea4b;
+  color: #86ea4b;
 }
 #portfolio h2 {
   font-weight: 900;
 }
 #portfolio {
-  background-color:#212121;
+  background-color: #212121;
   color: white;
 }
 #portfolio p {
-  color:#bcbec0;
+  color: #bcbec0;
 }
 #packages {
   background-color: #f1f1f1;
   margin-top: 0%;
 }
-.end-line{
+.end-line {
   border: 1px solid green;
   max-width: 3%;
   margin: auto;
   margin-top: 10px;
 }
 
-p{
+p {
   margin-bottom: 0% !important;
 }
 
@@ -210,14 +209,14 @@ p{
   background-color: white;
   border: 1px solid lightgrey;
 }
-.package ul{
+.package ul {
   list-style-type: none;
   padding-inline-start: 0% !important;
 }
 #packages h2 {
   font-weight: 900;
 }
-.sale{
+.sale {
   font-size: 32px;
   font-weight: 900;
   color: #63e206;
@@ -232,7 +231,6 @@ p{
 .package a:hover {
   text-decoration: none;
   color: white;
-
 }
 
 .viewall {
@@ -242,15 +240,21 @@ p{
   margin-top: 2%;
   color: white;
 }
-#packages .col-sm{
+#packages .col-sm {
   padding: 0%;
 }
 .mid {
-  border:1px solid blue;
+  border: 1px solid blue;
   margin-top: -20px;
 }
 #padding-btm {
   margin-bottom: 20px;
+}
+#process .col-sm h2 {
+  font-weight: 900;
+}
+#process .col-sm span {
+  color: #63e206;
 }
 #process-p {
   padding: 0% 20%;
@@ -267,7 +271,7 @@ p{
   font-size: 14px;
 }
 #p-clm {
-  padding:0%;
+  padding: 0%;
   margin-top: 25px;
 }
 
@@ -287,12 +291,10 @@ p{
   left: 50%;
   transform: translateX(-52%);
   top: -15px;
-  background-color: yellow;
+  background-color: #fec400;
   font-weight: 900;
   font-size: 24px;
 }
-
-
 
 #reviews h2 {
   font-weight: 900;
@@ -306,3 +308,61 @@ p{
   padding-right: 19% !important;
 }
 
+#reviews {
+  background-color: #f2f2f2;
+}
+.img-text {
+  width: 100%;
+  height: 300px;
+  display: block;
+  text-align: center;
+  padding: 40% 5%;
+  background-color: rgb(180, 180, 180);
+  color: black;
+  border-radius: 15px;
+}
+
+.img-text h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.img-text p {
+  font-size: 14px;
+}
+
+.single-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.img-area {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  top: 15px;
+  left: 125px;
+  border-radius: 50%;
+}
+
+.img-area img {
+  width: 100%;
+}
+
+.carousel-indicators {
+  left: 0 !important;
+  top: auto !important;
+  bottom: -10px !important;
+}
+.carousel-indicators li {
+  background-color: #fec400 !important;
+  border-radius: 50% !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.carousel-indicators .active {
+  background-color: #ff8100 !important;
+}
