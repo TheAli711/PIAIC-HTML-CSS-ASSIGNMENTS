@@ -60,7 +60,6 @@ html {
 
 .advantages {
   text-align: center;
-  margin-top: 30px;
 }
 .advantages h2 {
   font-weight: 900;
@@ -123,7 +122,6 @@ html {
   color: #86ea4b;
 }
 .aboutus h2 {
-  margin-top: 30px;
   font-weight: 900;
 }
 
@@ -141,7 +139,6 @@ html {
 }
 
 #services {
-  padding: 3% 0%;
 }
 .header-p {
   padding-left: 17%;
@@ -165,7 +162,6 @@ html {
   padding-left: 1%;
   background-color: #f2f2f2;
   margin:50px 10px ;
-  padding-bottom: 2%;
 }
 
 #services .container .col-sm img {
@@ -200,12 +196,12 @@ html {
 #packages {
   background-color: #f1f1f1;
   margin-top: 0%;
-  padding: 15px;
 }
 .end-line{
   border: 1px solid green;
-  max-width: 5%;
+  max-width: 3%;
   margin: auto;
+  margin-top: 10px;
 }
 
 p{
@@ -215,8 +211,6 @@ p{
 .package {
   background-color: white;
   border: 1px solid lightgrey;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 .package ul{
   list-style-type: none;
@@ -264,5 +258,38 @@ p{
   padding: 0% 20%;
 }
 #process img {
-  width: 54px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+#process h4 {
+  font-size: 18px;
+}
+#process p {
+  font-size: 14px;
+}
+#p-clm {
+  padding:0%;
+  margin-top: 25px;
+}
+
+.right-line {
+  position: absolute;
+  display: inline;
+  border: 1px solid black;
+  max-width: 1000px;
+  width: 100px;
+  top: 75px;
+}
+
+.process-num {
+  position: absolute;
+  border-radius: 50%;
+  width: 45px;
+  left: 50%;
+  transform: translateX(-52%);
+  top: -15px;
+  background-color: yellow;
+  font-weight: 900;
+  font-size: 24px;
 }
