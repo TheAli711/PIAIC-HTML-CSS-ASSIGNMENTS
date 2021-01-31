@@ -138,8 +138,6 @@ html {
   padding-top: 0%;
 }
 
-#services {
-}
 .header-p {
   padding-left: 17%;
   padding-right: 17%;
@@ -293,3 +291,18 @@ p{
   font-weight: 900;
   font-size: 24px;
 }
+
+
+
+#reviews h2 {
+  font-weight: 900;
+}
+#reviews span {
+  color: #63e206;
+}
+
+.review-p {
+  padding-left: 19% !important;
+  padding-right: 19% !important;
+}
+
